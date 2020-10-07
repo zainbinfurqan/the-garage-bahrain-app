@@ -12,7 +12,7 @@ function Home(props) {
     return (
         <SafeAreaView style={styles.container}>
             <ScrollView>
-                <AfterLoginHeader />
+                <AfterLoginHeader isMenu={true} />
                 <Banner />
                 <View style={{ height: 340 }}>
                     <FlatList

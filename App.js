@@ -24,12 +24,22 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Home from './src/pages/Home'
+import CarBrands from './src/pages/screens/SearchScreens/CarBrands'
+import BrandModel from './src/pages/screens/SearchScreens/BrandModel'
+import Years from './src/pages/screens/SearchScreens/Years'
+import Condition from './src/pages/screens/SearchScreens/Condition'
+import Kilometer from './src/pages/screens/SearchScreens/Kilometer'
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <Home />
+      {/* <Home /> */}
+      {/* <CarBrands /> */}
+      {/* <BrandModel /> */}
+      {/* <Years /> */}
+      {/* <Condition /> */}
+      <Kilometer />
       {/* <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"

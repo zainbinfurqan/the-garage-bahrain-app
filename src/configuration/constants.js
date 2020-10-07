@@ -4,7 +4,7 @@ export const CONSTANTS = {
     BASE_URL: '',
     USER_URL: '',
     ADMIN_URL: '',
-    BORDER_COLOR_LIGHT_GREY: '',
+    BORDER_COLOR_LIGHT_GREY: 'grey',
     BORDER_COLOR_MEDIUM_GREY: '',
     BORDER_COLOR_DARK_GREY: '',
     TEXT_COLOR_LIGHT_GREY: '',
