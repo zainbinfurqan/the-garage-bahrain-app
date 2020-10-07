@@ -14,7 +14,7 @@ export const CONSTANTS = {
     WHITE_COLOR: 'white',
     DARK_RED_COLOR: 'red',
     LIGHT_YELLOW_COLOR: '',
-    DARK_YELLOW_COLOR: '',
+    DARK_YELLOW_COLOR: 'yellow',
     SMALL_FONT_SIZE: 10,
     MEDIUM_FONT_SIZE: 20,
     LARGE_FONT_SIZE: 25,
