@@ -11,7 +11,8 @@ export const CONSTANTS = {
     TEXT_COLOR_MEDIUM_GREY: '',
     TEXT_COLOR_DARK_GREY: '',
     LIGHT_RED_COLOR: '',
-    DARK_RED_COLOR: '',
+    WHITE_COLOR: 'white',
+    DARK_RED_COLOR: 'red',
     LIGHT_YELLOW_COLOR: '',
     DARK_YELLOW_COLOR: '',
     SMALL_FONT_SIZE: 10,
@@ -20,6 +21,7 @@ export const CONSTANTS = {
     BORDER_SMALL_WITH: 0.35,
     BORDER_MEDIUM_WITH: 0.70,
     BORDER_LARGE_WITH: 1,
+    ICONS_SIZE_SMALL: 25,
     EVELUATE: 2,
     THEME: {
         darkTheme: {
