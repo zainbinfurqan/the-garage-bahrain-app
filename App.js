@@ -36,14 +36,14 @@ const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      {/* <Home /> */}
+      <Home />
       {/* <CarBrands /> */}
       {/* <BrandModel /> */}
       {/* <Years /> */}
       {/* <Condition /> */}
       {/* <Kilometer /> */}
       {/* <UploadProduct /> */}
-      <SerachPanel />
+      {/* <SerachPanel /> */}
       {/* <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"

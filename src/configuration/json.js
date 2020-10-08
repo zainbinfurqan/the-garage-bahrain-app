@@ -71,5 +71,16 @@ export const data = {
         { id: "11", name: '0 To 9999', image: require('../assets/images/carbrand.png') },
         { id: "12", name: '0 To 9999', image: require('../assets/images/carbrand.png') },
         { id: "13", name: '0 To 9999', image: require('../assets/images/carbrand.png') },
+    ],
+    products: [
+        { id: "1", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "2", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "3", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "4", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "5", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "6", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "7", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "8", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
+        { id: "9", text: 'It was popularised in the 1960s with the release of Letraset sheets con', image: require('../assets/images/carbrand.png') },
     ]
 }

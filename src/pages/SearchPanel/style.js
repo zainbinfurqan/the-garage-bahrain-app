@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        borderWidth: 1
     },
     categoryHeading: {
         height: 40, borderWidth: 0.5,
@@ -27,7 +26,17 @@ const styles = StyleSheet.create({
     singleCategoryText: {
         fontSize: CONSTANTS.SMALL_FONT_SIZE * 1.3,
         fontWeight: 'bold'
-    }
+    },
+    headingMain: { flexDirection: 'row', },
+    headingLeft: { flex: .8, padding: 5 },
+    headingLeftText: { fontWeight: 'bold' },
+    switchMenu: {
+        flex: .2,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+    },
+    gridIcon: { height: 20, width: 20, alignSelf: 'center' },
+    listView: { height: 20, width: 20, alignSelf: 'center' },
 });
 
 export default styles
