@@ -18,11 +18,13 @@ const styles = StyleSheet.create({
     },
     inputArea: {
         margin: 5,
+        textAlignVertical: 'top',
         borderRadius: 5,
         borderWidth: 0.5,
         borderColor: CONSTANTS.BORDER_COLOR_RED_LIGHT_GREY,
     },
     inputText: {
+        textAlignVertical: 'center',
         margin: 5,
         borderRadius: 5,
     },

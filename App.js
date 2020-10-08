@@ -30,6 +30,7 @@ import Years from './src/pages/screens/SearchScreens/Years'
 import Condition from './src/pages/screens/SearchScreens/Condition'
 import Kilometer from './src/pages/screens/SearchScreens/Kilometer'
 import UploadProduct from './src/pages/UserPages/UploadProduct'
+import SerachPanel from './src/pages/SearchPanel'
 
 const App = () => {
   return (
@@ -41,7 +42,8 @@ const App = () => {
       {/* <Years /> */}
       {/* <Condition /> */}
       {/* <Kilometer /> */}
-      <UploadProduct />
+      {/* <UploadProduct /> */}
+      <SerachPanel />
       {/* <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
