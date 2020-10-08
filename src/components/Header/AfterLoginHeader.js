@@ -6,6 +6,7 @@ function AfterLoginHeader(props) {
     return (
         <View style={styles.container}>
             <View style={styles.left}>
+                {props.back && <Image style={styles.leftIcon} source={props.backIcon} />}
                 {props.isMenu && <Image style={styles.leftIcon} source={props.leftIcon} />}
             </View>
             <View style={styles.middle}>
@@ -18,8 +19,10 @@ function AfterLoginHeader(props) {
 
 AfterLoginHeader.defaultProps = {
     leftIcon: require('../../assets/icons/menu.png'),
+    backIcon: require('../../assets/icons/back-white.png'),
     headerText: 'Header',
-    isMenu: false
+    isMenu: false,
+    back: false
 }
 
 export default AfterLoginHeader;

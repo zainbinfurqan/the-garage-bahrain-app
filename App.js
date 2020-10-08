@@ -29,6 +29,7 @@ import BrandModel from './src/pages/screens/SearchScreens/BrandModel'
 import Years from './src/pages/screens/SearchScreens/Years'
 import Condition from './src/pages/screens/SearchScreens/Condition'
 import Kilometer from './src/pages/screens/SearchScreens/Kilometer'
+import UploadProduct from './src/pages/UserPages/UploadProduct'
 
 const App = () => {
   return (
@@ -39,7 +40,8 @@ const App = () => {
       {/* <BrandModel /> */}
       {/* <Years /> */}
       {/* <Condition /> */}
-      <Kilometer />
+      {/* <Kilometer /> */}
+      <UploadProduct />
       {/* <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
