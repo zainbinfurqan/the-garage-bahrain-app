@@ -6,8 +6,9 @@ const styles = StyleSheet.create({
     },
     selectCategoryMain: {
         height: 50,
-        borderWidth: 1, margin: 5, padding: 5,
+        borderWidth: 0.5, margin: 5, padding: 5,
         borderRadius: 5,
+        borderColor: CONSTANTS.BORDER_COLOR_RED_LIGHT_GREY,
         justifyContent: 'center'
     },
     selectCateogryText: {
@@ -18,15 +19,25 @@ const styles = StyleSheet.create({
     inputArea: {
         margin: 5,
         borderRadius: 5,
-        borderWidth: 1
+        borderWidth: 0.5,
+        borderColor: CONSTANTS.BORDER_COLOR_RED_LIGHT_GREY,
     },
     inputText: {
         margin: 5,
         borderRadius: 5,
     },
-    priceMain: { flexDirection: 'row', borderWidth: 1, margin: 5, },
+    priceMain: {
+        flexDirection: 'row', margin: 5,
+        borderWidth: 0.5,
+        borderColor: CONSTANTS.BORDER_COLOR_RED_LIGHT_GREY,
+    },
     inputTextPrice: { flex: 0.9 },
-    priceIcon: { flex: .1, borderWidth: 1, justifyContent: 'center' },
+    priceIcon: {
+        flex: .1,
+        borderLeftWidth: 0.5,
+        borderColor: CONSTANTS.BORDER_COLOR_RED_LIGHT_GREY,
+        justifyContent: 'center'
+    },
     iconText: { alignSelf: 'center', fontSize: CONSTANTS.MEDIUM_FONT_SIZE },
     selectedImageSlider: {
         height: 130,
@@ -51,7 +62,8 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         borderRadius: 5,
         width: '90%',
-    }
+    },
+    headingText: { marginLeft: 5, fontSize: CONSTANTS.SMALL_FONT_SIZE * 1.4, fontWeight: 'bold', color: 'black' }
 });
 
 export default styles
