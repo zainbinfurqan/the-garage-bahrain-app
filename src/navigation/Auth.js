@@ -26,14 +26,22 @@ import { createStackNavigator } from '@react-navigation/stack';
 // import Chat from '../screens/chat'
 // import FAQ from '../screens/faq'
 import EntryScreen from '../pages/UserPages/EntryScreen'
+import categoryActions from '../redux/action/categoriesAction'
+import { useSelector, useDispatch } from 'react-redux'
+
 const Stack = createStackNavigator();
 
 function Auth(props) {
+    const dispatch = useDispatch()
+    const store = useSelector(store => store)
 
     React.useEffect(() => {
+        dispatch(categoryActions.getCategoriesAction())
+        dispatch(categoryActions.getCarBrandsAction())
+        dispatch(categoryActions.getCarAction())
         // props.fetchCategory()
     }, [])
-
+    console.log("store=>", store)
     return (
         <>
             <SafeAreaView style={{ flex: 1 }}>

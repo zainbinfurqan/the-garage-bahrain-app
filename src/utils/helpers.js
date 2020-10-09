@@ -54,7 +54,7 @@ helpers.sortAscendingFNForDate = function sortAscendingFNForDate(label, data) {
 
 
 //api method
-helper.apiMethod = async function (path = null, method = null, body = null, authorization = null, url = null) {
+helpers.apiMethod = async function (path = null, method = null, body = null, authorization = null, url = null) {
     try {
         let apiUrl = url;
 
@@ -90,3 +90,5 @@ helper.apiMethod = async function (path = null, method = null, body = null, auth
         throw e;
     }
 };
+
+export default helpers
