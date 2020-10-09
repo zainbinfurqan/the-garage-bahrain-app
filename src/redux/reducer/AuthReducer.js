@@ -4,8 +4,8 @@ import {
 } from '../action/AuthAction';
 
 const initialState = {
-    userData: null,
-    isLogin: false,
+    userData: { id: '001', name: "Zain Ahmed", email: 'zain.ahmed1995@gmail.com', role: ['admin'] },
+    isLogin: true,
     apiResponseError: { isError: false, errorMessage: '', flag: '' },
 };
 

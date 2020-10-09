@@ -25,8 +25,13 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         backgroundColor: CONSTANTS.DARK_YELLOW_COLOR,
         borderRadius: 5,
-        bottom: 0, height: 50, width: 100,
-    }
+        bottom: 3, height: 40, width: 120,
+        flexDirection: 'row'
+    },
+    postAddIconMain: { flex: 0.4, justifyContent: 'center', },
+    postAddIcon: { height: 35, width: 35, alignSelf: 'center' },
+    postAddTestMain: { flex: 0.6, justifyContent: 'center' },
+    postAddText: { fontSize: CONSTANTS.SMALL_LEVEL1_FONT_SIZE * 1.2, fontWeight: 'bold', alignSelf: 'center' }
 });
 
 export default styles

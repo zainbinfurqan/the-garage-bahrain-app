@@ -4,8 +4,9 @@ export const REGISTRATION = 'user/api/auth/registration'
 export const LOGIN = 'user/api/auth/login'
 
 //get paths
-export const GETCATEGORIES = ''
-export const GETLEVEL1CATEGORIES = ''
+export const GETCATEGORIES = 'user/api/category'
+export const GETLEVEL1CATEGORIES = 'user/api/category/categorylevel1'
+export const GETCARBRANDS = 'user/api/category/carbrands'
 export const GETCARBRANDSBYCARFORSALE = ''
 export const GETCARBRANDSBYSCRAPCARS = ''
 export const GETCARSBTCARBRANDS = ''

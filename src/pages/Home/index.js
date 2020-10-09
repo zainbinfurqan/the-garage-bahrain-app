@@ -30,7 +30,14 @@ function Home(props) {
                 </View>
                 <CustomAdds />
             </ScrollView>
-            <View style={styles.addPost}></View>
+            <TouchableOpacity activeOpacity={0.8} style={styles.addPost}>
+                <View style={styles.postAddIconMain}>
+                    <Image style={styles.postAddIcon} source={require('../../assets/icons/post-icon.png')} />
+                </View>
+                <View style={styles.postAddTestMain}>
+                    <Text style={styles.postAddText}>POST AD</Text>
+                </View>
+            </TouchableOpacity>
         </SafeAreaView>
     );
 }
