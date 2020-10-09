@@ -1,7 +1,7 @@
 import { CONSTANTS } from './constants'
 import {
     REGISTRATION,
-    GETCATEGORIES, GETCARS, GETCARBRANDS
+    GETCATEGORIES, GETCARS, GETCARBRANDS,GETLEVEL1CATEGORIES,GETLEVEL2CATEGORIES
 } from './urls'
 import helper from '../utils/helpers'
 
@@ -51,6 +51,27 @@ apis.getCars = async function (body = null, authorization = null, headers = null
     );
 };
 
+//get categories level 1
+apis.getCategoryLevel1 = async function (body = null, authorization = null, headers = null) {
+    return await helper.apiMethod(
+        null,
+        'GET',
+        body,
+        authorization,
+        `${CONSTANTS.BASE_URL}${GETLEVEL1CATEGORIES}`,
+    );
+};
+
+//get categories level 2
+apis.getCategoryLevel2 = async function (body = null, authorization = null, headers = null) {
+    return await helper.apiMethod(
+        null,
+        'GET',
+        body,
+        authorization,
+        `${CONSTANTS.BASE_URL}${GETLEVEL2CATEGORIES}`,
+    );
+};
 
 
 export default apis

@@ -6,6 +6,7 @@ export const LOGIN = 'user/api/auth/login'
 //get paths
 export const GETCATEGORIES = 'user/api/category'
 export const GETLEVEL1CATEGORIES = 'user/api/category/categorylevel1'
+export const GETLEVEL2CATEGORIES = 'user/api/category/categorylevel2'
 export const GETCARBRANDS = 'user/api/category/carbrands'
 export const GETCARS = 'user/api/category/cars'
 export const GETCARBRANDSBYCARFORSALE = ''

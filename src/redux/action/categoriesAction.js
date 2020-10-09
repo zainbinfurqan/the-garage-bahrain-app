@@ -1,3 +1,5 @@
+export const GET_CATEGORIES_LEVEL_1 = 'GET_CATEGORIES_LEVEL_1';
+export const GET_CATEGORIES_LEVEL_2 = 'GET_CATEGORIES_LEVEL_2';
 export const GET_CATEGORIES = 'GET_CATEGORIES';
 export const GET_CAR_BRANDS = 'GET_CAR_BRANDS';
 export const GET_CARS = 'GET_CARS';
@@ -27,5 +29,18 @@ action.getCarAction = function (data) {
     };
 };
 
+action.getCategoriesLevel1Action = function (data) {
+    return async function (dispatch) {
+        let response = await apis.getCategoryLevel1();
+        dispatch({ type: GET_CATEGORIES_LEVEL_1, payload: response });
+    };
+};
+
+action.getCategoriesLevel2Action = function (data) {
+    return async function (dispatch) {
+        let response = await apis.getCategoryLevel2();
+        dispatch({ type: GET_CATEGORIES_LEVEL_2, payload: response });
+    };
+};
 
 export default action

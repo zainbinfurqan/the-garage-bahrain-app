@@ -39,9 +39,14 @@ function Auth(props) {
         dispatch(categoryActions.getCategoriesAction())
         dispatch(categoryActions.getCarBrandsAction())
         dispatch(categoryActions.getCarAction())
-        // props.fetchCategory()
+        dispatch(categoryActions.getCategoriesLevel1Action())
+        dispatch(categoryActions.getCategoriesLevel2Action())
     }, [])
-    console.log("store=>", store)
+    console.log("store=>", store.categories.categories)
+    console.log("store=>", store.categories.carBrands)
+    console.log("store=>", store.categories.cars)
+    console.log("store=>", store.categories.categoriesLevel1)
+    console.log("store=>", store.categories.categoriesLevel2)
     return (
         <>
             <SafeAreaView style={{ flex: 1 }}>

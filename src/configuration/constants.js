@@ -1,7 +1,8 @@
 //this file contain all constants like theme, api base url, dropdown keys, etc
 
 export const CONSTANTS = {
-    BASE_URL: 'https://ceba89998f3c.ngrok.io/',
+    // BASE_URL: 'https://ceba89998f3c.ngrok.io/',
+    BASE_URL: 'https://serene-savannah-02158.herokuapp.com/',
     USER_URL: '',
     ADMIN_URL: '',
     BORDER_COLOR_LIGHT_GREY: '#DEDEDE',
