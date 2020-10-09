@@ -31,12 +31,22 @@ import Condition from './src/pages/screens/SearchScreens/Condition'
 import Kilometer from './src/pages/screens/SearchScreens/Kilometer'
 import UploadProduct from './src/pages/UserPages/UploadProduct'
 import SerachPanel from './src/pages/SearchPanel'
+import Navigation from './src/navigation/Navigations'
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import store, { persistor } from './src/redux/store';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <Home />
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <StatusBar backgroundColor="#ffd100" barStyle="dark-content" />
+          <Navigation />
+        </PersistGate>
+      </Provider>
+      {/* <Home /> */}
       {/* <CarBrands /> */}
       {/* <BrandModel /> */}
       {/* <Years /> */}
